@@ -1,0 +1,63 @@
+
+body{
+    background-color: rgb(210, 210, 209);
+    font-family: 'Source Sans Pro', sans-serif;
+}   
+
+.presentacion {
+    background-color: rgb(147, 143, 143);
+    font-size: 1.2rem;
+    display:flex;
+}
+.presentacion > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 1rem;
+}
+.presentacion > h1 {
+    font-style: italic, bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    dis
+   
+}
+
+.presentacion > h2{
+    font-style: italic, bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.datos_personales {
+    background-color: rgb(152, 158, 143);
+    font-size: 1rem;
+
+}
+.datos_personales > li {
+    list-style: circle;
+}
+
+#comentario {
+    border-radius: 5px;
+    width: 400px ;
+    height: 200px;
+    color:#8bb194;
+    ;
+}
+
+.botones > input {
+    margin: 1rem .3rem 1rem 2.3rem;
+    padding: .7rem;
+    position:relative;
+    border: 0;
+    background-color: #8bb194;
+    border-radius: 5px;
+}
+
+.botones > input:hover {
+    background-color:  rgb(173, 186, 175);
+    border-color: grey ;
+    border: 1 px;
+}

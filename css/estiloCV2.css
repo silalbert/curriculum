@@ -1,0 +1,110 @@
+.encabezadoCV{
+    background-color: rgb(77, 118, 118);
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: center;
+}
+
+.encabezadoCV > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 1rem;
+}
+
+.texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.nombre{ 
+    font-size: 2rem;
+    text-shadow: 1px 2px 4px #000;
+}
+.ocupacion{
+    margin-top: -20px;
+    font-size: 1.2rem; 
+}
+
+.menu_contacto {
+    background-color: #000;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: center;
+
+}
+.caja{
+    margin: 1rem;
+    font-size: .8rem;
+}
+
+a { text-decoration: none;
+}
+
+fa-solid fa-house {
+    color:#fff;
+}
+
+fa-sharp fa-solid fa-inbox { 
+    color: #fff;
+}
+
+fa-brands fa-whatsapp {
+    color: #fff;
+}
+
+.cuerpoCV {
+    background-color: rgb(225,222,221);
+    display:flex;
+    justify-content: center;
+}
+
+.texto_cuerpo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(56, 55, 55);
+    font-size: 0.8rem;
+    justify-content:baseline;
+}
+
+.columna{
+    width:50%;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.columna > p {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 2px 4px rgb(81, 80, 80);
+}
+
+#comentario {
+    border-radius: 5px;
+    width: 400px ;
+    height: 100px;
+}
+
+.botones > input {
+    margin: 1rem .3rem 1rem 2.3rem;
+    padding: .5rem;
+    position:relative;
+    border: 0;
+    background-color: rgb(77, 118, 118);
+    border-radius: 5px;
+}
+
+.botones > input:hover {
+    background-color:  rgb(129, 160, 160);
+    border-color: grey ;
+    border: 1px;
+}
+
+.animate__fadeInRight{
+    transition-duration: 2s;
+}
